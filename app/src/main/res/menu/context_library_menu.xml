@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/regster"
+        android:title="독서기록하기" />
+    <item
+        android:id="@+id/delete"
+        android:title="서재에서 삭제하기" />
+</menu>

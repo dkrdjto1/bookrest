@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="4dp"
+        android:elevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/readingpagenumber"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="P.100"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/upddate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view1"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="80dp"
+                android:paddingRight="10dp"
+                android:text="20201120 11:20"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/memo"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/readingpagenumber"
+                android:layout_marginTop="10dp"
+                android:text="책 상세설명"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/addMemo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:paddingLeft="10dp"
+                android:text="&#8942;"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
